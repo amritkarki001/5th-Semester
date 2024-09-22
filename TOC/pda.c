@@ -107,7 +107,7 @@ void main()
     int i=0;
     printf("\nEnter a input string: ");
     gets(inputstr);
-    maketransition('e','e',current); //important
+    maketransition('e','e',current); 
     c=inputstr[i];
     while(c !='\0')\
     {
